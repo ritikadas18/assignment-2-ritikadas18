@@ -19,7 +19,14 @@ public class bstTraversal {
         postOrderTraversal(node.getRight());
         System.out.print(node.getData() + " ");
     }
-
+    //printing my binary search tree as in order
+    void inOrderTraversal(TreeNode node) {
+        if (node == null)
+            return;
+        inOrderTraversal(node.getLeft());
+        System.out.print(node.getData() + " ");
+        inOrderTraversal(node.getRight());
+    }
 
 
 
