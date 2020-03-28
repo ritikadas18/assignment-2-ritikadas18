@@ -21,6 +21,21 @@ public class MyPriorityQueue {
     }
 
     public void enQueue(Node newNode) {
-
+        Node temp = getFront();
+        //if no element in queue then add the element at 1st position
+        if (getFront() == null || getFront().getStudent().getRollNumber() > newNode.getStudent().getRollNumber()) {
+            setFront(newNode);
+            getFront().setNextNode(temp);
+        }
+        //else add to the last node
+        else {
+            while (temp.getNextNode() != null && temp.getNextNode().getStudent().getRollNumber() <= newNode.getStudent().getRollNumber()) {
+                temp = temp.getNextNode();
+            }
+            newNode.setNextNode(temp.getNextNode());
+            temp.setNextNode(newNode);
+        }
     }
+
+
 }
