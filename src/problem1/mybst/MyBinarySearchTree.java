@@ -14,7 +14,18 @@ public class MyBinarySearchTree {
     static Queue<TreeNode> que;
     //insert method
     public TreeNode insert(TreeNode root,int x) {
-
+        if(root==null)
+        {
+            return new TreeNode(x);
+        }
+        //if x is greater ...add element to right
+        else if(x>root.getData()){
+            root.setRight(insert(root.getRight(),x));
+        }
+        //else insert to left
+        else{
+            root.setLeft(insert(root.getLeft(),x));
+        }
         return root;
 
     }
