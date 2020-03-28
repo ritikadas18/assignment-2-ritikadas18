@@ -11,6 +11,10 @@ import problem5.node.Node;
 public class MyCircularQueue {
     private Node front;
     private Node rear;
+    public Node getFront() {
+        return front;
+    }
+
 
 
 }
