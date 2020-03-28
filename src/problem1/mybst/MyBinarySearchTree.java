@@ -29,4 +29,15 @@ public class MyBinarySearchTree {
         return root;
 
     }
+    //pre-order traversal of BST
+    public void preOrderTraverse(TreeNode root) {
+        if(root!=null) {
+            System.out.println(root.getData());
+            preOrderTraverse(root.getLeft());
+            preOrderTraverse(root.getRight());
+        }
+    }
+    public void countNodeWithoutLeftChild(TreeNode root) {
+
+    }
 }
