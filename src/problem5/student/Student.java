@@ -11,5 +11,10 @@ public class Student {
     private int rollNumber;
     private int backLogCounter;
 
+    public int getBackLogCounter() {
+        return backLogCounter;
+    }
+
+
 
 }
