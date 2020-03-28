@@ -29,6 +29,8 @@ public class MyMain {
         mst.insert(root, 3);
         tree.preOrderTraversal(root);
         System.out.println();
+        tree.postOrderTraversal(root);
+        System.out.println();
 
     }
 }
