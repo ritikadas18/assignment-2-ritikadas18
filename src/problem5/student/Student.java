@@ -18,6 +18,11 @@ public class Student {
         this.backLogCounter = backLogCounter;
     }
 
+    public String getName() {
+        return name;
+    }
+
+
 
 
 
