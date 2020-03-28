@@ -14,6 +14,10 @@ public class Student {
     public int getBackLogCounter() {
         return backLogCounter;
     }
+    public void setBackLogCounter(int backLogCounter) {
+        this.backLogCounter = backLogCounter;
+    }
+
 
 
 
