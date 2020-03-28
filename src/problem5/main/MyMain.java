@@ -28,8 +28,34 @@ public class MyMain {
             System.out.println("Enter roll number");
             student.setRollNumber(scan.nextInt());
             System.out.println("Enter backlogs");
+            int backLogs = scan.nextInt();
+            if (backLogs > 2) {
+                System.out.println("This student is not allowed");
+                continue;
+            }
+            student.setBackLogCounter(backLogs);
+
+            node.setStudent(student);
+
+            cq.enQueue(node);
+
+            nOR--;
+        }
+
+        System.out.println();
+        System.out.println("Data before deleting records");
+        System.out.println();
+        cq.traverseQueue();
+
+        System.out.println("Removing zero backlog students");
+        cq.removeZeroBacklogRecords();
+
+        System.out.println();
+        System.out.println("Data after deleting records");
+        System.out.println();
+        cq.traverseQueue();
 
     }
 
 }
-}
+
