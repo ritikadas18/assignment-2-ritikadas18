@@ -19,5 +19,8 @@ public class MyMain {
         obj.insert(root,19);
         obj.insert(root,7);
 
+        MyQueue q = new MyQueue();
+        q.enQueue(16);
+        q.deQueue();
     }
 }
