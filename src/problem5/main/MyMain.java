@@ -15,6 +15,10 @@ import java.util.Scanner;
 //executable class
 public class MyMain {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        MyCircularQueue cq = new MyCircularQueue();
+
+
 
     }
 }
