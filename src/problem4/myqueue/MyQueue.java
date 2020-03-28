@@ -10,6 +10,11 @@ public class MyQueue {
     public Node getFront() {
         return front;
     }
+    public void setFront(Node front) {
+        this.front = front;
+    }
+
+
 
 
 
