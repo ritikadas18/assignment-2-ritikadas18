@@ -11,5 +11,7 @@ import problem1.node.TreeNode;
 public class MyMain {
     public static void main(String[] args) {
         MyBinarySearchTree bst = new MyBinarySearchTree();
+        TreeNode root;
+
     }
 }
