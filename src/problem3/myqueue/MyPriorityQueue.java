@@ -20,5 +20,7 @@ public class MyPriorityQueue {
         this.front = front;
     }
 
+    public void enQueue(Node newNode) {
 
+    }
 }
