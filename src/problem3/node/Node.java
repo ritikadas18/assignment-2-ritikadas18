@@ -6,5 +6,7 @@
  */
 package problem3.node;
 
+import problem5.student.Student;
+
 public class Node {
 }
