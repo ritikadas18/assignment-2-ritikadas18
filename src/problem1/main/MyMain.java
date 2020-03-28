@@ -24,5 +24,8 @@ public class MyMain {
         bst.insert(root, 36);
         bst.insert(root, 52);
         bst.insert(root, 1);
+        bst.preOrderTraverse(root);
+        bst.countNodeWithoutLeftChild(root);
+        bst.viewLeft(root);
     }
 }
