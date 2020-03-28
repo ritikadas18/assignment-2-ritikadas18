@@ -69,4 +69,7 @@ public class MyBinarySearchTree {
         }
 
     }
+    public void printLeftTree(TreeNode root) {
+
+    }
 }
