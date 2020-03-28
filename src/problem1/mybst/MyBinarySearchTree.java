@@ -12,4 +12,10 @@ import java.util.Queue;
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
     static Queue<TreeNode> que;
+    //insert method
+    public TreeNode insert(TreeNode root,int x) {
+
+        return root;
+
+    }
 }
