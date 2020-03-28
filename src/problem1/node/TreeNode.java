@@ -18,4 +18,8 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
+
+    public int getData() {
+        return data;
+    }
 }
