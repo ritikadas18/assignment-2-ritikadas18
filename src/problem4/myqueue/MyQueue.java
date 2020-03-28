@@ -17,6 +17,9 @@ public class MyQueue {
     public Node getRear() {
         return rear;
     }
+    public void setRear(Node rear) {
+        this.rear = rear;
+    }
 
 
 
