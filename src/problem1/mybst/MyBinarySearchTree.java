@@ -85,6 +85,26 @@ public class MyBinarySearchTree {
                 System.out.print(temp.getData() + " ");
 
             }
+            // add children of all nodes at current level
+            while (que.peek() != null) {
+
+                // If left child is present then add into queue
+                if (temp.getLeft() != null)
+                    que.add(temp.getLeft());
+
+                // If right child is present then add into queue
+                if (temp.getRight() != null)
+                    que.add(temp.getRight());
+
+                // remove the current node
+                que.remove();
+
+                temp = que.peek();
+            }
+            que.add(null);
         }
+        que.remove();
     }
 }
+
+
