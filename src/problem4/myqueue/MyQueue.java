@@ -29,6 +29,11 @@ public class MyQueue {
             setRear(getRear().getNextNode());
         }
     }
+    public Node deQueue() {
+        Node temp;
+
+        return temp;
+    }
 
 
 }
