@@ -5,9 +5,14 @@
  *  Time: 7:15 PM
  */
 package problem2.main;
+
 import problem1.mybst.MyBinarySearchTree;
 import problem1.node.TreeNode;
-import java.util.Scanner;
-public class MyMain {
 
+public class MyMain {
+    public static void main(String[] args) {
+
+        bstTraversal tree = new bstTraversal();
+
+    }
 }
