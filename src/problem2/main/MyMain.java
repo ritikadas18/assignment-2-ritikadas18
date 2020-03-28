@@ -27,6 +27,8 @@ public class MyMain {
         mst.insert(root, 45);
         mst.insert(root, 6);
         mst.insert(root, 3);
+        tree.preOrderTraversal(root);
+        System.out.println();
 
     }
 }
