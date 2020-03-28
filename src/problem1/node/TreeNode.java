@@ -7,6 +7,7 @@
 package problem1.node;
 
 public class TreeNode {
+    //variabales to store data and references
     private int data;
     private TreeNode left;
     private TreeNode right;
@@ -16,7 +17,7 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
-
+    //getter and setter to acess private fields
     public int getData() {
         return data;
     }
