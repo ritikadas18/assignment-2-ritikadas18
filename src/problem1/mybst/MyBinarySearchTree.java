@@ -5,10 +5,11 @@
  *  Time: 7:17 PM
  */
 package problem1.mybst;
-// to implement BinarySearchTree
+
 import problem1.node.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
+// to implement BinarySearchTree
 public class MyBinarySearchTree {
-
+    static Queue<TreeNode> que;
 }
