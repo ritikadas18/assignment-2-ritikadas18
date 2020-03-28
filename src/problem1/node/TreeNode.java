@@ -6,8 +6,6 @@
  */
 package problem1.node;
 
-import com.sun.source.tree.Tree;
-
 public class TreeNode {
     private int data;
     private TreeNode left;
