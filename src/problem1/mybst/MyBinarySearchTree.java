@@ -105,6 +105,9 @@ public class MyBinarySearchTree {
         }
         que.remove();
     }
+    public void viewLeft(TreeNode root) {
+
+    }
 }
 
 
