@@ -13,6 +13,8 @@ public class MyMain {
     public static void main(String[] args) {
 
         bstTraversal tree = new bstTraversal();
+        MyBinarySearchTree mst = new MyBinarySearchTree();
+        TreeNode root = new TreeNode(10);
 
     }
 }
