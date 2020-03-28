@@ -11,6 +11,16 @@ public class bstTraversal {
         preOrderTraversal(node.getLeft());
         preOrderTraversal(node.getRight());
     }
+    //printing my binary search tree as post order
+    void postOrderTraversal(TreeNode node) {
+        if (node == null)
+            return;
+        postOrderTraversal(node.getLeft());
+        postOrderTraversal(node.getRight());
+        System.out.print(node.getData() + " ");
+    }
+
+
 
 
 }
