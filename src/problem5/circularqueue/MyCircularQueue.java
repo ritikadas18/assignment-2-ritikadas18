@@ -21,6 +21,10 @@ public class MyCircularQueue {
         return rear;
     }
 
+    public void setRear(Node rear) {
+        this.rear = rear;
+    }
+
 
 
 
