@@ -27,11 +27,11 @@ public class MyMain {
         mst.insert(root, 45);
         mst.insert(root, 6);
         mst.insert(root, 3);
-        tree.preOrderTraversal(root);
+        tree.preOrderTraversal(root);//print as pre order
         System.out.println();
-        tree.postOrderTraversal(root);
+        tree.postOrderTraversal(root);//print as post order
         System.out.println();
-        tree.inOrderTraversal(root);
+        tree.inOrderTraversal(root);//print as in order
         System.out.println();
     }
 }
