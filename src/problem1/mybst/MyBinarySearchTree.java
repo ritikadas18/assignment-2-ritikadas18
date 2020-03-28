@@ -69,10 +69,22 @@ public class MyBinarySearchTree {
         }
 
     }
+
     public void printLeftTree(TreeNode root) {
         if (root == null)
             return;
         que.add(root);//add root to queue
+        que.add(null);
 
+        while (que.size() > 0) {
+            TreeNode temp = que.peek();
+
+            if (temp != null) {
+
+                // Prints first node
+                System.out.print(temp.getData() + " ");
+
+            }
+        }
     }
 }
