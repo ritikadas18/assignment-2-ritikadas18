@@ -36,6 +36,16 @@ public class MyPriorityQueue {
             temp.setNextNode(newNode);
         }
     }
+    public Node deQueue() {
+        if (getFront() == null) {
+            System.out.println("Empty queue");
+            return null;
+        }
+        Node temp = getFront();
+        setFront(getFront().getNextNode());
+        return temp;
+
+    }
 
 
 }
